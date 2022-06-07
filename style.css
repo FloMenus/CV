@@ -1,0 +1,25 @@
+.blueside {
+background-color: #179498;
+color : white;
+}
+h1 {
+    color: #666666;
+}
+h2 {
+    color: #179498
+}
+h3 {
+    color: #666666
+}
+h4 {
+    color: #666666;
+}
+p {
+    color: #666666
+}
+h2.blueside-font {
+    color: white
+}
+h3.blueside-font {
+    color: white
+}
