@@ -1,8 +1,7 @@
-h1  {
 
-}
 body {
     color: grey;
+    margin: 0%;
 
 }
 
@@ -12,11 +11,27 @@ body {
     margin: 0%;
     margin-left: 2%;
     margin-top: -5%;
-    margin-inline-end: 70%;
     padding-top: 4%;
     padding-bottom: 1%;
+    margin-right: 68%;
 }
-  #main {
+h1 {
+    margin-left: 37%;
+    display: float;
 
-  }
+}
+footer {
+    background-color: #179498;
+    padding: 10%;
+    margin: 0%
+}
+main {
+    float: right;
+    margin-left: 35%;
+}
+aside{
 
+}
+.description {
+float: center;
+}
