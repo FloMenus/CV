@@ -1,3 +1,4 @@
+/*Polices*/
 @font-face {
     font-family: "basic light";
     src: url("Basic Light.ttf");
@@ -8,54 +9,122 @@
     src: url("NEOTERIC©\ -\ Bold\ DEMO\ VERSION.ttf");
 }
 
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url();
+}
+@font-face {
+    font-family: font-family: 'Montserrat', sans-serif;
+    src: url();
+}
+/*body, header & main*/
 body {
     display: flex;
     flex-direction: column;
-    color: grey;
     margin: 0%;
-    font-family: basic light;
+    font-family: "open sans";
 }
+
 header {
     display: flex;
     flex-direction: row;
     height: max-content;
 }
+
+
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     height: 700px;
 }
+
+/* Coté Adresse */
 .adress-side {
     background-color: #179498;
     width: 50%;
     padding: 2% 1% 2% 1%;
     margin: 0% 1% 2% 3%;
+    color: #fbffff;
+    font-size: 25px;
+    align-items: center;
 }
 
+/* Description */
+.description {
+    width: max-content;
+    padding: 0% 5% 0% 5%;
+}
+
+/* Coté Gauche - Bleu */
 .profil-side {
     background-color: #179498;
     justify-content: left;
     align-content: flex-start;
     width: 35%;
-    height: 300px;
-    padding: 2% 1% 2% 1%;
+    height: 700px;
+    padding: 2% 0% 2% 1%;
     margin: 2% 1% 2% 3%;
 }
+
+.profil-side h2 {
+    color: #fbffff;
+    font-size: 45px;
+
+}
+
+.profil-side h3 {
+    color: #fbffff;
+    
+}
+
+.profil-side h4 {
+    color: #fbffff;
+    font-size: 20px;
+
+}
+
+.profil-side p {
+    color: #fbffff;
+    font-size: 20px;
+
+}
+
+/*Coté Droit - Blanc*/
 .right-side {
     flex-direction: column;
     justify-content: left;
     align-content: flex-end;
     width: 45%;
     padding: 2% 5% 2% 0%;
-    margin: 2% 5% 2% 0%;
+    margin: 2% 5% 2% 2%;
 }
+
 h1 {
     width: 100%;
-    align-content: center;
+    align-items: center;
     font-family: neoteric-bold;
     font-size: 120px;
+    color: rgb(61, 60, 60);
+    padding-top: 2%;
 }
-.description {
-    width: max-content;
+
+h2 {
+    color: #179498;
+    font-size: 45px;
+    font-family: montserrat;
+    font-weight: bold ;
+}
+
+h3 {
+    color: rgb(61, 60, 60);
+    font-family: open sans;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p {
+    color: rgb(61, 60, 60);
+    font-size: 20px;
 }
