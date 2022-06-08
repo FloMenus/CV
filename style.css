@@ -1,8 +1,11 @@
-
+@font-face {
+    font-family: "basic light";
+    src: url("Basic Light.ttf");
+}
 body {
     color: grey;
     margin: 0%;
-
+    font-family: basic light;
 }
 
 .blueside {
@@ -10,10 +13,14 @@ body {
     color: white;
     margin: 0%;
     margin-left: 2%;
-    margin-top: -5%;
-    padding-top: 4%;
-    padding-bottom: 1%;
     margin-right: 68%;
+    font-family: basic light;
+}
+.profil-side {
+    padding-top: %;
+}
+.adress-side {
+    margin-top:%
 }
 h1 {
     margin-left: 37%;
@@ -28,10 +35,12 @@ footer {
 main {
     float: right;
     margin-left: 35%;
+    
 }
 aside{
 
 }
 .description {
-float: center;
+margin-left : 3%;
+
 }
