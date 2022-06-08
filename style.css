@@ -16,24 +16,46 @@ body {
     font-family: basic light;
 }
 header {
-    justify-content: center;;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 700px;
 }
 .adress-side {
-    background-color: aqua;
-    width: 30%;
+    background-color: #179498;
+    width: 50%;
+    padding: 2% 1% 2% 1%;
+    margin: 0% 1% 2% 3%;
 }
 
 .profil-side {
-    background-color: aqua;
+    background-color: #179498;
     justify-content: left;
     align-content: flex-start;
-    width: 50%;
+    width: 35%;
+    height: 300px;
+    padding: 2% 1% 2% 1%;
+    margin: 2% 1% 2% 3%;
 }
 .right-side {
+    flex-direction: column;
     justify-content: left;
     align-content: flex-end;
-    width: 50%;
+    width: 45%;
+    padding: 2% 5% 2% 0%;
+    margin: 2% 5% 2% 0%;
 }
 h1 {
-    align-items: center;
+    width: 100%;
+    align-content: center;
+    font-family: neoteric-bold;
+    font-size: 120px;
+}
+.description {
+    width: max-content;
 }
