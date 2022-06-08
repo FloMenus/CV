@@ -2,12 +2,38 @@
     font-family: "basic light";
     src: url("Basic Light.ttf");
 }
+
 @font-face {
     font-family: "neoteric-bold";
     src: url("NEOTERIC©\ -\ Bold\ DEMO\ VERSION.ttf");
 }
+
 body {
+    display: flex;
+    flex-direction: column;
     color: grey;
     margin: 0%;
     font-family: basic light;
+}
+header {
+    justify-content: center;;
+}
+.adress-side {
+    background-color: aqua;
+    width: 30%;
+}
+
+.profil-side {
+    background-color: aqua;
+    justify-content: left;
+    align-content: flex-start;
+    width: 50%;
+}
+.right-side {
+    justify-content: left;
+    align-content: flex-end;
+    width: 50%;
+}
+h1 {
+    align-items: center;
 }
